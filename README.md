@@ -46,7 +46,7 @@ The overall test above showed no significant difference in mean PSI between lots
 
 ![Screen Shot 2022-02-07 at 10 35 53 AM](https://user-images.githubusercontent.com/89421440/152861930-1a91932d-b217-445b-bdd6-f765a5345ef0.png)
 ![Screen Shot 2022-02-07 at 10 36 22 AM](https://user-images.githubusercontent.com/89421440/152861931-b3fe95e2-4850-4605-b796-01f94007993d.png)
-![Screen Shot 2022-02-07 at 10 37 46 AM](https://user-images.githubusercontent.com/89421440/152861932-73429f53-a17e-4030-b970-57f07f392826.png)
+![Screen Shot 2022-02-07 at 1 18 32 PM](https://user-images.githubusercontent.com/89421440/152873658-ab5ba3c3-05dd-4b08-93b8-28a9ed2fc4fd.png)
 
 Follow up tests above indicated that the means of each lot individually, Lot 1 (M = 1,500), Lot 2 (M = 1,500.2) and Lot 3 (M = 1,496.14), do not differ significantly from the population mean, p > 0.05.
 
@@ -62,4 +62,4 @@ As two or more car producers will be compared, the statistical analysis will cen
 An ANOVA will be run to test whether there is a statistical difference between the distribution means from the car producers.
 
 ## Summary
-In sum, 
+In sum, data from a single car producer was analyzed and recommendations for future analysis comparing different car producers were made.
