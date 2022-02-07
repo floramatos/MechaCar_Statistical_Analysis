@@ -21,12 +21,19 @@ The output shows that the variables vehicle length and ground clearance signific
 The model explains 68.25% of the MPG variance.
 
 ### Summary Statistics on Suspension Coils
-- rationale = the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
-- Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-- 
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-- It meets for all lots as a whole, var = 62.293
-- Breaking down into lots. It doesn’t meet for lot3, var = 170.286
+As an additional exploratory analysis, the weight capacities of multiple suspension coils, measured in pounds per square inch (PSI), were examined to identify if the manufacturing process is consistent across production lots. According to MechaCar design specifications, the variance of the suspension coils must not exceed 100 pounds per square inch.
+
+
+<img width="339" alt="total_summary_table" src="https://user-images.githubusercontent.com/89421440/152859295-2e6b4a49-4a0b-4df7-a5d5-54b4bcc8607a.png">
+
+
+As seen in the total summary table above, the current manufacturing data meets the design specification for all manufacturing lots, var = 62.293.
+
+
+<img width="490" alt="lot_summary_table" src="https://user-images.githubusercontent.com/89421440/152859223-5129b93a-2e0c-486a-837e-4a89c6fc5826.png">
+
+
+Breaking down the total summary into the three lots in the dataset, lot 1 (var = 0.980) and lot 2 (var = 7.469) meets the specification while lot 3 (var = 170.286) does not.
 
 ### T-Tests on Suspension Coils
 - Run t-tests to determine if the manufacturing lots are statistically different from the mean population
