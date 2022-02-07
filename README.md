@@ -1,24 +1,24 @@
-# MechaCar_Statistical_Analysis
+# An Statistical Analysis of Vehicles Performances
+A linear regression model was conducted in R to predict the performance of vehicle prototypes.
 
-The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. 
-DV/outcome variable = mpg
-IVs/predictor variables = vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance
+## Overview
+The main goal of the present project was to examine the performance of 50 prototype vehicles produced by MechaCars. The prototypes produced had varying design specifications, such as  vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance. These variables were used in the analysis as predictors of the ideal vehicle performance, measured by the outcome variable MPG (Mile-Per-Gallon). It’s assumed here that more MPG means better car performance.
 
+## Results
+The main analysis consisted in a linear regression model. Secondary exploratory analysis and t-tests were also conducted.
 
-## Linear Regression to Predict MPG
-- Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+### Linear Regression to Predict MPG
+A multiple linear regression analysis was conducted to identify which predictor variables significantly explain the variance in the MPG of MechaCar prototypes. The output of the linear regression results is shown below:
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-- vehicle length and ground clearance, p < 0.05
+****ADD LM results
 
-Is the slope of the linear model considered to be zero? Why or why not?
-- Y(MPG) = slope*X + intercept
-- MPG = 6.267(vehicle_length) + 0.001(vehicle_weight) + 0.069(spoiler_angle) + 3.546(ground_clearance) - 3.411(AWD) -104
+The output shows that the variables vehicle length and ground clearance significantly predicted the mpg values, p < 0.05. The complete linear regression equation is:
 
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-The model predicts 68.25% of MPG variance.
+MPG = 6.267(vehicle_length) + 0.001(vehicle_weight) + 0.069(spoiler_angle) + 3.546(ground_clearance) - 3.411(AWD) - 104
 
-## Summary Statistics on Suspension Coils
+This model predicts 68.25% of the MPG variance.
+
+### Summary Statistics on Suspension Coils
 - rationale = the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
 - Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 - 
@@ -26,11 +26,13 @@ The model predicts 68.25% of MPG variance.
 - It meets for all lots as a whole, var = 62.293
 - Breaking down into lots. It doesn’t meet for lot3, var = 170.286
 
-## T-Tests on Suspension Coils
+### T-Tests on Suspension Coils
 - Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 - rationale = perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
 
 
-## Stats study design
+### Stats study design
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
+## Summary
