@@ -51,6 +51,15 @@ The overall test above showed no significant difference in mean PSI between lots
 Follow up tests above indicated that the means of each lot individually, Lot 1 (M = 1,500), Lot 2 (M = 1,500.2) and Lot 3 (M = 1,496.14), do not differ significantly from the population mean, p > 0.05.
 
 ### Stats study design
-- Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+An addition study could be run to examine the performance of MechaCar vehicles in comparison to their competition. In particular, MechaCar vehicles can be compared to their competition with respect to their maintenance cost.
+
+Hypothesis
+H0: Vehicles produced by MechaCar have maintenance cost similar to the competition.
+H1: Vehicles produced by MechaCar cost significantly less to maintain compared to the competition.
+
+As two or more car producers will be compared, the statistical analysis will center on examining the mean differences between groups. The independent variables, groups, will be a categorical and nominal variables with labels such as MechaCar, competitor_1, competitor_2. The dependent variable will be a numerical and continuous variable named maintenance cost, measured in dollars.
+
+An ANOVA will be run to test whether there is a statistical difference between the distribution means from the car producers.
 
 ## Summary
+In sum, 
