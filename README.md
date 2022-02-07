@@ -11,7 +11,7 @@ The main analysis consisted in a linear regression model. Secondary exploratory 
 A multiple linear regression analysis was conducted to identify which predictor variables significantly explain the variance in the MPG of MechaCar prototypes. The output of the linear regression results is shown below:
 
 
-    <img width="525" alt="mlr_table" src="https://user-images.githubusercontent.com/89421440/152856961-a4dbe3f0-d2bb-408d-9645-51543d2a500d.png">
+<img width="525" alt="mlr_table" src="https://user-images.githubusercontent.com/89421440/152856961-a4dbe3f0-d2bb-408d-9645-51543d2a500d.png">
 
 
 The output shows that the variables vehicle length and ground clearance significantly predicted the mpg values, p < 0.05. The complete linear regression equation is:
