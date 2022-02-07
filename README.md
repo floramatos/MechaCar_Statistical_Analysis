@@ -33,13 +33,22 @@ As seen in the total summary table above, the current manufacturing data meets t
 <img width="490" alt="lot_summary_table" src="https://user-images.githubusercontent.com/89421440/152859223-5129b93a-2e0c-486a-837e-4a89c6fc5826.png">
 
 
-Breaking down the total summary into the three lots in the dataset, lot 1 (var = 0.980) and lot 2 (var = 7.469) meets the specification while lot 3 (var = 170.286) does not.
+Breaking down the total summary into the three lots in the dataset, Lot 1 (var = 0.980) and Lot 2 (var = 7.469) meets the specification while lot 3 (var = 170.286) does not.
 
 ### T-Tests on Suspension Coils
-- Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-- rationale = perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+Given the difference in variance found, T-tests were also run to examine whether the mean PSI of the lots differ significantly from the population mean of 1,500 PSI.
 
 
+![overall_t-test](https://user-images.githubusercontent.com/89421440/152861834-0c6f4a15-840c-411e-8a96-a5948b5f1f97.png)
+
+
+The overall test above showed no significant difference in mean PSI between lots, mean = 1,498.78, and population, p > 0.05.
+
+![Screen Shot 2022-02-07 at 10 35 53 AM](https://user-images.githubusercontent.com/89421440/152861930-1a91932d-b217-445b-bdd6-f765a5345ef0.png)
+![Screen Shot 2022-02-07 at 10 36 22 AM](https://user-images.githubusercontent.com/89421440/152861931-b3fe95e2-4850-4605-b796-01f94007993d.png)
+![Screen Shot 2022-02-07 at 10 37 46 AM](https://user-images.githubusercontent.com/89421440/152861932-73429f53-a17e-4030-b970-57f07f392826.png)
+
+Follow up tests above indicated that the means of each lot individually, Lot 1 (M = 1,500), Lot 2 (M = 1,500.2) and Lot 3 (M = 1,496.14), do not differ significantly from the population mean, p > 0.05.
 
 ### Stats study design
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
