@@ -54,8 +54,8 @@ Follow up tests above indicated that the means of each lot individually, Lot 1 (
 An addition study could be run to examine the performance of MechaCar vehicles in comparison to their competition. In particular, MechaCar vehicles can be compared to their competition with respect to their maintenance cost.
 
 Hypothesis
-H0: Vehicles produced by MechaCar have maintenance cost similar to the competition.
-H1: Vehicles produced by MechaCar cost significantly less to maintain compared to the competition.
+- H0: Vehicles produced by MechaCar have maintenance cost similar to the competition.
+- H1: Vehicles produced by MechaCar cost significantly less to maintain compared to the competition.
 
 As two or more car producers will be compared, the statistical analysis will center on examining the mean differences between groups. The independent variables, groups, will be a categorical and nominal variables with labels such as MechaCar, competitor_1, competitor_2. The dependent variable will be a numerical and continuous variable named maintenance cost, measured in dollars.
 
